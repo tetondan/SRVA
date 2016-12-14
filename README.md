@@ -7,7 +7,7 @@ Full cutomization of survey and questions. Ability to create public or private s
 ##Tech
 Backend build with NodeJS/Express utilizing a PostgreSQL database. 
 
-Frontend build with Reat/Redux.
+Frontend build with React/Redux.
 
 ##Requirements
 Node v6.9.1^
