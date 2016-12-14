@@ -16,5 +16,5 @@ PostgreSQL 9.5.0^
 
 ##API
 
-*__"/create/user"__ 
+*"/create/user"
 ⋅⋅* POST: requires a JSON object sent {"username": [username], "email": [email], "password": [password]}
