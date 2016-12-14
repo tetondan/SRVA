@@ -13,3 +13,7 @@ Frontend build with Reat/Redux.
 Node v6.9.1^
 
 PostgreSQL 9.5.0^
+
+##API
+
+__"/create/user"__ POST: requires a JSON object sent {"username": [username], "email": [email], "password": [password]}
