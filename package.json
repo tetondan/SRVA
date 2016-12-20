@@ -1,0 +1,25 @@
+{
+  "name": "srva",
+  "version": "1.0.0",
+  "description": "A custom survey/poll creator.",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "pg": "^6.1.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tetondan/SRVA.git"
+  },
+  "author": "Daniel Frehner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tetondan/SRVA/issues"
+  },
+  "homepage": "https://github.com/tetondan/SRVA#readme"
+}
