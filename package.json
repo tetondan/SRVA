@@ -1,16 +1,10 @@
 {
   "name": "srva",
   "version": "1.0.0",
-  "description": "A custom survey/poll creator.",
-  "main": "server.js",
-  "dependencies": {
-    "body-parser": "^1.15.2",
-    "express": "^4.14.0",
-    "pg": "^6.1.2"
-  },
-  "devDependencies": {},
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack-dev-server --content-base client/dist/"
   },
   "repository": {
     "type": "git",
@@ -21,5 +15,30 @@
   "bugs": {
     "url": "https://github.com/tetondan/SRVA/issues"
   },
-  "homepage": "https://github.com/tetondan/SRVA#readme"
+  "homepage": "https://github.com/tetondan/SRVA#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "pg": "^6.1.0",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "react-redux": "^4.4.6",
+    "redux": "^3.6.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.7",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "css-loader": "^0.25.0",
+    "eslint": "^3.10.2",
+    "npm-run-all": "^3.1.1",
+    "opt-cli": "^1.5.1",
+    "rimraf": "^2.5.4",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.3",
+    "webpack-config-utils": "^2.1.0",
+    "webpack-dev-server": "^1.16.2",
+    "webpack-validator": "^2.2.9"
+  }
 }
